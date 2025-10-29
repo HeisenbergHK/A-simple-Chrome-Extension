@@ -1,6 +1,6 @@
 # 🚀 Lead Tracker - Your Personal URL Collector
 
-_Never lose a great link again!_
+*Never lose a great link again!* 
 
 ![Lead Tracker Demo](images/demo-img.png)
 
@@ -11,25 +11,21 @@ Lead Tracker is a sleek Chrome extension that turns you into a URL-hoarding ninj
 ## ✨ Features That'll Make You Smile
 
 ### 🔗 **Save Current Tab**
-
 Click "Save tab" and BAM! The current page URL gets added to your collection faster than you can say "bookmarks are so last decade."
 
-### ⌨️ **Manual URL Entry**
-
+### ⌨️ **Manual URL Entry** 
 Type any URL into the input field and hit "Save Input" - perfect for those links your friend texted you at 2 AM.
 
 ### 🗑️ **Nuclear Option**
-
 Double-click "Delete All" to wipe your entire collection clean. It's like Marie Kondo for your URLs - sometimes you just need a fresh start!
 
 ### 💾 **Persistent Storage**
-
 Your links stick around even after closing Chrome, thanks to localStorage magic. No cloud, no fuss, just local goodness.
 
 ## 🎨 The Look
 
 - Clean green theme (#5d923f) that's easy on the eyes
-- Compact 400px width - won't hog your screen real estate
+- Compact 400px width - won't hog your screen real estate  
 - Clickable links that open in new tabs (because nobody likes losing their place)
 - Smooth hover effects that feel just right
 
@@ -41,6 +37,15 @@ Your links stick around even after closing Chrome, thanks to localStorage magic.
 4. **Click** any saved link to open it in a new tab
 5. **Double-click** "Delete All" when you need a clean slate
 
+## 🧪 How to Test in Your Local Chrome Browser
+
+1. **Open Chrome** and go to `chrome://extensions/`
+2. **Enable Developer Mode** (toggle in top-right corner)
+3. **Click "Load unpacked"** and select this project folder
+4. **Pin the extension** to your toolbar for easy access
+5. **Click the extension icon** to open the popup
+6. **Test it out** - save some URLs and watch the magic happen!
+
 ## 🔧 Tech Stack
 
 - **HTML5** - The foundation
@@ -49,4 +54,6 @@ Your links stick around even after closing Chrome, thanks to localStorage magic.
 - **Chrome Extensions API** - For that sweet tab access
 - **localStorage** - Your personal data vault
 
-_Built with ❤️ and probably too much coffee_
+Perfect for developers, researchers, students, or anyone who opens 47 tabs and then panics about losing that one important link! 
+
+*Built with ❤️ and probably too much coffee*
