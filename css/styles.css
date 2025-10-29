@@ -1,0 +1,76 @@
+body {
+  margin: 0px;
+  padding: 10px;
+
+  font-family: Arial, Helvetica, sans-serif;
+  min-width: 400px;
+  max-width: 400px;
+}
+
+#input-el {
+  width: 100%;
+  border: 1px solid #5d923f;
+  border-radius: 2px;
+  height: 42px;
+  padding: 0px 15px;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #5d923f;
+  border: 2px solid #5d923f;
+  border-radius: 2px;
+
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  color: rgb(249, 252, 255);
+
+  padding: 6px 13px;
+  margin: 7px 0px 0px 0px;
+
+  cursor: pointer;
+
+  box-sizing: border-box;
+}
+
+button:active {
+  background-color: #4c7733;
+  border: 2px solid #4c7733;
+}
+
+#delete-btn {
+  background-color: rgb(249, 252, 255);
+  color: #5d923f;
+  border: 2px solid #5d923f;
+}
+
+#delete-btn:active {
+  background-color: #8e8e8e;
+  color: rgb(249, 252, 255);
+  border: 2px solid #8e8e8e;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0px;
+  margin: 30px 0px 0px 0px;
+}
+
+li {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+
+  padding: 0px 0px 10px 5px;
+
+  text-overflow: ellipsis;
+
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+li a {
+  color: #5d923f;
+}
